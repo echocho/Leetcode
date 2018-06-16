@@ -1,13 +1,11 @@
 # Leetcode155_minStack.py
-'''
-MinStack minStack = new MinStack();
-minStack.push(-2);
-minStack.push(0);
-minStack.push(-3);
-minStack.getMin();   --> Returns -3.
-minStack.pop();
-minStack.top();      --> Returns 0.
-minStack.getMin();   --> Returns -2. '''
+
+# Solution: use binary heap as the backbone, to have faster run time
+# Time complexity:
+# getMin(): O(1)
+# pop(): O(1)
+# push(): O(log n)
+# pop(): O(log n)
 
 class MinStack:
     
@@ -133,4 +131,3 @@ print('min',ms.getMin())
 # print(ms.stack)
 # print(ms.heap)
 
-'''remove() 和del() 的区别：'''
