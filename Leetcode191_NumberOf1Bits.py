@@ -1,7 +1,7 @@
 # Leetcode191_NumberOf1Bits.py
 
-# convert integer into binary and then count the ones in it
-# O(n)
+# Solution 1: convert integer into binary and then count the 1s in it
+# O(n), with n representing the size of the number
 
 def hammingWeight(n):
     """
