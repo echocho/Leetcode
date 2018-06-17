@@ -5,8 +5,8 @@ def countBits(num):
     :type num: int
     :rtype: List[int]
     """
-    # method 1: Use built-in functions. Convert into binary first and then count.
-    # O(n * size of integer num)
+    # Solution 1: Use built-in functions. Convert into binary first and then count.
+    # O(n * size of integer num), could be near quadratic
     """""
     ans = []
     for i in range(0, num+1):
@@ -14,8 +14,9 @@ def countBits(num):
         ans.append(i.count('1'))
     return ans
     """""
-    # method 2: Dynamic programming: n's binary represention ==
-    # n/2's bin + '0' (if n is odd) or n/2 + '1' (if n is even). Built-in functions not needed.
+    # Solution 2: Dynamic programming
+    # n's binary represention ==
+    # n/2's bin + '0' (if n is odd) or n/2 + '1' (if n is even).
     # O(n)
     if num == 0:
         return [0]
