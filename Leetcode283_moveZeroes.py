@@ -5,10 +5,19 @@ def moveZeroes(nums):
     :type nums: List[int]
     :rtype: void Do not return anything, modify nums in-place instead.
     """
-    zero_cnt = nums.count(0)
-    nums[:] = [i for i in nums if i != 0]
-    nums += [0] * zero_cnt
 
+    # Solution 1: iterate the list, find none zero elements and put them in order, starting from index.
+    # And then fill the remaining slots with 0s.
+
+    # O(n)
+
+    i = 0
+    for j in range(0, len(nums)):
+        if nums[j] != 0:
+            nums[i] = nums[j]
+            i += 1
+    for j in range(i, len(nums)):
+        nums[j] = 0
     return nums
 
 
