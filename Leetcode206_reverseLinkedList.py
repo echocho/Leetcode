@@ -1,4 +1,43 @@
+# Leetcode206_reverseLinkedList.py
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+class Solution:
+    def reverseList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        # Solution 1: recursive
+        # O(n)
+        if head == None or head.next == None:
+            return head
+        p = self.reverseList(head.next)
+        head.next.next = head
+        head.next = None
+        return p
 
+        # Solution 2: iterative
+        # O(n)
+        '''
+        node_prev = None
+        node_curr = head
+        while node_curr:
+            node_temp = node_curr.next
+            node_curr.next = node_prev
+            node_prev = node_curr
+            node_curr = node_temp
+            # Note: we need node_temp to store the next node, otherwise, after altering the node_curr's next pointer, 
+            # we can go on to the one which yet to be iterate.
+            # In otherwords, the following line is not replaceable with the above four lines
+            node_curr.next, node_prev, node_curr = node_prev, node_curr, node_curr.next
+        return node_prev
+        '''
+
+
+# implement a linked list with reverse method, just for fun
 class Node:
     def __init__(self, data):
         self.val = data
@@ -70,45 +109,14 @@ class UnorderedList:
             previous.getNext().setNext(previous)
         return self.head
 
-
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-class Solution:
-    def reverseList(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
-        # current = head
-        # previous = None
-        # while current:
-        #     previous = current
-        #     current = current.next
-        #     previous.next.next = previous
-        # return head
-        # current = self.head
-        # previous = None
-        # while current:
-        #     previous = current
-        #     current = current.getNext()
-        #     previous.getNext().setNext(previous.getData())
-
-
-
-lst = UnorderedList()
-lst.add(1)
-lst.add(2)
-lst.add(3)
-lst.add(4)
-lst.add(5)
-lst.add(6)
-print(lst.reverse())
-
-
-
+# lst = UnorderedList()
+# lst.add(1)
+# lst.add(2)
+# lst.add(3)
+# lst.add(4)
+# lst.add(5)
+# lst.add(6)
+# print(lst.reverse())
 
 
 
