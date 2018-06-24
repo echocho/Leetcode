@@ -10,6 +10,7 @@ def twoSum(numbers, target):
     # 1. iterate nums, and put complements in the dictionary
     # 2. at the same time, check if a number's complement is in the dictionary
     # O(n)
+    ''''
     my_dict = {}
     for i in range(len(numbers)):
         complement = target - numbers[i]
@@ -17,6 +18,7 @@ def twoSum(numbers, target):
             my_dict[numbers[i]] = i + 1
         else:
             return [my_dict[complement], i + 1]
+    '''
 
     # Solution 2: since the array is already sorted, keep two pointers
     # 1. one starts from head (left) and the other from the end (right)
@@ -31,8 +33,8 @@ def twoSum(numbers, target):
         else:
             left += 1
 
-# print(twoSum([2, 7, 11, 15], 9) == [1,2])
-# print(twoSum([1, 2, 2, 5], 4) == [2, 3])
-# print(twoSum([3, 3], 6) == [1, 2])
-# print(twoSum([2, 3, 4], 6) == [1, 3])
+print(twoSum([2, 7, 11, 15], 9) == [1,2])
+print(twoSum([1, 2, 2, 5], 4) == [2, 3])
+print(twoSum([3, 3], 6) == [1, 2])
+print(twoSum([2, 3, 4], 6) == [1, 3])
 
