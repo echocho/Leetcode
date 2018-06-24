@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c62e0e4-f747-4a4d-b342-6e470fbeed14" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Leetcode167_twoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode167_twoSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode371_sumOfTwoIntegers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode371_sumOfTwoIntegers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode406_queueReconstructionByHeight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode406_queueReconstructionByHeight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode812_largestTriangleArea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Leetcode690_employeeImportance.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Leetcode690_employeeImportance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Leetcode690_employeeImportance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="268">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leetcode812_largestTriangleArea.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Leetcode812_largestTriangleArea.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -51,6 +59,7 @@
         <option value="$PROJECT_DIR$/Leetcode167_twoSum.py" />
         <option value="$PROJECT_DIR$/Leetcode406_queueReconstructionByHeight.py" />
         <option value="$PROJECT_DIR$/Leetcode690_employeeImportance.py" />
+        <option value="$PROJECT_DIR$/Leetcode812_largestTriangleArea.py" />
       </list>
     </option>
   </component>
@@ -94,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Leetcode690_employeeImportance">
+  <component name="RunManager" selected="Python.Leetcode812_largestTriangleArea">
     <configuration name="Leetcode167_twoSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,24 +135,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode283_moveZeroes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Leetcode338_CountingBits" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode338_CountingBits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,20 +176,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Leetcode812_largestTriangleArea" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode812_largestTriangleArea.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.Leetcode283_moveZeroes" />
-      <item itemvalue="Python.Leetcode338_CountingBits" />
       <item itemvalue="Python.Leetcode167_twoSum" />
       <item itemvalue="Python.Leetcode406_queueReconstructionByHeight" />
       <item itemvalue="Python.Leetcode690_employeeImportance" />
+      <item itemvalue="Python.Leetcode812_largestTriangleArea" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Leetcode812_largestTriangleArea" />
         <item itemvalue="Python.Leetcode690_employeeImportance" />
         <item itemvalue="Python.Leetcode406_queueReconstructionByHeight" />
         <item itemvalue="Python.Leetcode167_twoSum" />
         <item itemvalue="Python.Leetcode283_moveZeroes" />
-        <item itemvalue="Python.Leetcode338_CountingBits" />
       </list>
     </recent_temporary>
   </component>
@@ -209,10 +218,10 @@
     <frame x="80" y="23" width="1305" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2593458" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2593458" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24833111" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24833111" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -434,8 +443,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode690_employeeImportance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="268">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode812_largestTriangleArea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
