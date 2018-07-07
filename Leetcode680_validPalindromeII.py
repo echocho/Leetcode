@@ -65,4 +65,3 @@ print(Solution().validPalindrome('abcb') == True)
 print(Solution().validPalindrome('abbaa') == True)
 print(Solution().validPalindrome('cbabc') == True)
 print(Solution().validPalindrome('abcd') == False)
-

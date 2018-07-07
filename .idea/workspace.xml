@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c62e0e4-f747-4a4d-b342-6e470fbeed14" name="Default" comment="" />
+    <list default="true" id="4c62e0e4-f747-4a4d-b342-6e470fbeed14" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Leetcode125_valid Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode400_NthDigit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode680_validPalidromeII.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode680_validPalindromeII.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode680_validPalindromeII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode863_AllNodesDistanceKinBinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode863_AllNodesDistanceKinBinaryTree.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,20 +19,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Leetcode690_employeeImportance.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode690_employeeImportance.py">
+      <file leaf-file-name="Leetcode812_largestTriangleArea.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode812_largestTriangleArea.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="684">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leetcode812_largestTriangleArea.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leetcode812_largestTriangleArea.py">
+      <file leaf-file-name="Leetcode279_perfectSquares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode279_perfectSquares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="133">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leetcode863_AllNodesDistanceKinBinaryTree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode863_AllNodesDistanceKinBinaryTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leetcode125_valid Palindrome.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Leetcode125_valid Palindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leetcode400_NthDigit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode400_NthDigit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -51,20 +86,34 @@
         <option value="$PROJECT_DIR$/Leetcode206_reverseLinkedList.py" />
         <option value="$PROJECT_DIR$/Leetcode231_powerOfTwo.py" />
         <option value="$PROJECT_DIR$/Leetcode283_moveZeroes.py" />
-        <option value="$PROJECT_DIR$/Leetcode338_CountingBits.py" />
         <option value="$PROJECT_DIR$/Leetcode371_sumOfTwoIntegers.py" />
         <option value="$PROJECT_DIR$/Leetcode167_twoSum.py" />
         <option value="$PROJECT_DIR$/Leetcode406_queueReconstructionByHeight.py" />
         <option value="$PROJECT_DIR$/Leetcode690_employeeImportance.py" />
         <option value="$PROJECT_DIR$/Leetcode812_largestTriangleArea.py" />
+        <option value="$PROJECT_DIR$/Leetcode448_FindAllNumbersDisappearedInArray.py" />
+        <option value="$PROJECT_DIR$/../my_python/Leetcode860_LemonadeChange.py" />
+        <option value="$PROJECT_DIR$/../my_python/Leetcode.863_AllNodesDistanceKinBinaryTree.py" />
+        <option value="$PROJECT_DIR$/../my_python/QuickSort.py" />
+        <option value="$PROJECT_DIR$/../Algorithm/mergeSort.py" />
+        <option value="$PROJECT_DIR$/Leetcode863_AllNodesDistanceKinBinaryTree.py" />
+        <option value="$PROJECT_DIR$/Leetcode338_CountingBits.py" />
+        <option value="$PROJECT_DIR$/Leetcode279_perfectSquares.py" />
+        <option value="$PROJECT_DIR$/Leetcode680_validPalidromeII.py" />
+        <option value="$PROJECT_DIR$/Leetcode680_validPalindromeII.py" />
+        <option value="$PROJECT_DIR$/Leetcode125_valid Palindrome.py" />
+        <option value="$PROJECT_DIR$/Leetcode400_NthDigit.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
-    <option name="y" value="23" />
-    <option name="width" value="1305" />
-    <option name="height" value="813" />
+    <option name="x" value="99" />
+    <option name="y" value="-1254" />
+    <option name="width" value="1642" />
+    <option name="height" value="1196" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -100,8 +149,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Leetcode812_largestTriangleArea">
-    <configuration name="Leetcode167_twoSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Leetcode400_NthDigit">
+    <configuration name="Leetcode125_valid Palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,13 +162,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode167_twoSum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode125_valid Palindrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Leetcode283_moveZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Leetcode400_NthDigit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,13 +180,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode283_moveZeroes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode400_NthDigit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Leetcode406_queueReconstructionByHeight" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Leetcode680_validPalindromeII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,13 +198,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode406_queueReconstructionByHeight.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode680_validPalindromeII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Leetcode690_employeeImportance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Leetcode863_AllNodesDistanceKinBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,13 +216,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode690_employeeImportance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode863_AllNodesDistanceKinBinaryTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Leetcode812_largestTriangleArea" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,30 +230,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../my_python" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leetcode812_largestTriangleArea.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../my_python/QuickSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Leetcode283_moveZeroes" />
-      <item itemvalue="Python.Leetcode167_twoSum" />
-      <item itemvalue="Python.Leetcode406_queueReconstructionByHeight" />
-      <item itemvalue="Python.Leetcode690_employeeImportance" />
-      <item itemvalue="Python.Leetcode812_largestTriangleArea" />
+      <item itemvalue="Python.QuickSort" />
+      <item itemvalue="Python.Leetcode680_validPalindromeII" />
+      <item itemvalue="Python.Leetcode125_valid Palindrome" />
+      <item itemvalue="Python.Leetcode863_AllNodesDistanceKinBinaryTree" />
+      <item itemvalue="Python.Leetcode400_NthDigit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Leetcode812_largestTriangleArea" />
-        <item itemvalue="Python.Leetcode690_employeeImportance" />
-        <item itemvalue="Python.Leetcode406_queueReconstructionByHeight" />
-        <item itemvalue="Python.Leetcode167_twoSum" />
-        <item itemvalue="Python.Leetcode283_moveZeroes" />
+        <item itemvalue="Python.Leetcode400_NthDigit" />
+        <item itemvalue="Python.Leetcode125_valid Palindrome" />
+        <item itemvalue="Python.Leetcode863_AllNodesDistanceKinBinaryTree" />
+        <item itemvalue="Python.Leetcode680_validPalindromeII" />
+        <item itemvalue="Python.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -212,13 +261,13 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="23" width="1305" height="813" extended-state="0" />
+    <frame x="99" y="-1254" width="1642" height="1196" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2593458" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18260333" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24833111" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27392995" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -230,16 +279,46 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18260333" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27392995" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Leetcode690_employeeImportance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode812_largestTriangleArea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode1_twoSum.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -348,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode15_threeSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode141_linkedListCycle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -387,13 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode338_CountingBits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -431,24 +496,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode406_queueReconstructionByHeight.py">
+    <entry file="file://$PROJECT_DIR$/Leetcode448_FindAllNumbersDisappearedInArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../my_python/dynamicProgramming.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_python/Leetcode.863_AllNodesDistanceKinBinaryTree.py" />
     <entry file="file://$PROJECT_DIR$/Leetcode690_employeeImportance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="589">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_python/Leetcode860_LemonadeChange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="4" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algorithm/mergeSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_python/QuickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode338_CountingBits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode680_validPalidromeII.py" />
+    <entry file="file://$PROJECT_DIR$/Leetcode680_validPalindromeII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode406_queueReconstructionByHeight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode812_largestTriangleArea.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode863_AllNodesDistanceKinBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode567_permutationInString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode15_threeSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode279_perfectSquares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode400_NthDigit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode125_valid Palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
