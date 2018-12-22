@@ -24,4 +24,17 @@ def mySqrt(x):
 print(mySqrt(200))
 
 
+# what looks a bit simpler
+def solution():
+    if x < 2:
+        return x
     
+    left, right, = 1, x
+    while left < right:
+        m = left + (right - left) // 2
+        if m <= x / m:
+            left += 1
+        else: 
+            right = m
+    return m
+        
