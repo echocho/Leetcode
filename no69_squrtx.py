@@ -25,7 +25,7 @@ print(mySqrt(200))
 
 
 # what looks a bit simpler
-def solution():
+def solution(x):
     if x < 2:
         return x
     
