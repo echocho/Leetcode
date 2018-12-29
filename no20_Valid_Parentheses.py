@@ -4,7 +4,7 @@ def isValid(s):
     :rtype: bool
     """
     if not s:
-        return False
+        return True
 
     stack = []
     open_brackets = ['[', '{', '(']
@@ -15,15 +15,24 @@ def isValid(s):
     for i in s:
         if i in open_brackets:
             stack.append(i)
-        elif stack[-1] == symbol_dict.get(i):
-            stack.pop()
+        else:
+            try:
+                if stack.pop() != symbol_dict.get(i):
+                    return False
+            except:
+                return False
     if len(stack):
         return False
     return True
 
 print(isValid('[{]')==False)
 print(isValid('()[]{}')==True)
-print(isValid('')==False)
+print(isValid('')==True)
 print(isValid('{({[]})}')==True)
 print(isValid('][')==False)
 print(isValid('[])')==False)
+print(isValid('[)')==False)
+print(isValid(')))')==False)
+print(isValid("(])")==False)
+print(isValid("{()}]")==False)
+print(isValid('(')==False)
