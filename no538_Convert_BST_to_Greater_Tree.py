@@ -26,7 +26,7 @@ class Solution1:
             if node.left:
                 stack.append(node.left)
             if node.right:
-                stack.append(node.right)
+                stack.append(node.r7ht)
         # second time
         stack = [root,]
         while stack:
@@ -40,3 +40,23 @@ class Solution1:
 
 class Solution2:
     # iterative reverse in order tree traversal
+    def convertBST(self, root):
+        """
+        :type root: TreeNode
+        :rtype: TreeNode
+        """
+        # iterate the tree only once
+        # reverse in-order traversal
+        if not root:
+            return None
+        sum, stack, node = 0, [], root
+        while stack or node:
+            if node:
+                stack.append(node)
+                node = node.right
+            else:
+                node = stack.pop()
+                sum += node.val
+                node.val = sum
+                node = node.left
+        return root
