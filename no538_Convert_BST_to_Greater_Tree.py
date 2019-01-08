@@ -40,3 +40,17 @@ class Solution1:
 
 class Solution2:
     # iterative reverse in order tree traversal
+    pass
+
+class Solution3:
+    # recursive revser in order tree traversal
+    def __init__(self):
+        self.total = 0
+    
+    def convertBST(self, root):
+        if root:
+            self.convertBST(root.right)
+            self.total += root.val
+            root.val = self.total
+            self.convertBST(root.left)
+        return root
