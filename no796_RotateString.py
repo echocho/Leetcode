@@ -19,5 +19,6 @@ class Solution1:
 
  class Solution2:
  	# if B == A, len(B) == len(A) and B is a substring of A+A
+ 	# O(n**2)
  	def rotateString(self, A, B):
  		return len(A) == len(B) and B in A + A 
