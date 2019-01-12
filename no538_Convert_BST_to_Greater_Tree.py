@@ -38,8 +38,18 @@ class Solution1:
                 stack.append(node.right)
         return root
 
-class Solution2:
-    # iterative reverse in order tree traversal
+class Solution3:
+    # recursive revser in order tree traversal
+    def __init__(self):
+        self.total = 0
+    
+    def convertBST(self, root):
+        if root:
+            self.convertBST(root.right)
+            self.total += root.val
+            root.val = self.total
+            self.convertBST(root.left)
+=======
     def convertBST(self, root):
         """
         :type root: TreeNode
@@ -59,4 +69,5 @@ class Solution2:
                 sum += node.val
                 node.val = sum
                 node = node.left
+>>>>>>> a5a0d1753d275d9a4689133acae2114d39aa950a
         return root
