@@ -18,6 +18,14 @@ class Solution(object):
         return 1 + max(self.maxDepth(root.right), self.maxDepth(root.left))
 
             
-
+# 2019-01-13 did it one more time
+def maxDepth(root):
+    if not root:
+        return 0
+    
+    left, right = maxDepth(root.left), maxDepth(root.right)
+    if left > right:
+        return 1 + left
+    return 1 + right
 
 
