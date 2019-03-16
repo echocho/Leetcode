@@ -1,32 +1,25 @@
 class Solution:
-	def has_duplicate_number(self, lst): 
+	def no_duplicate_number(self, lst): 
 		num_set = set()
 		for item in lst:
 			if item != '.':
 				if item in num_set:
-					return True
+					return False
 				num_set.add(item)
-		return False
+		return True
 
 	def row_is_valid(self, board):
-		for row in board:
-			if self.has_duplicate_number(row):
-				return False
-		return True
+		return all(self.no_duplicate_number(row) for row in board)
 
 	def col_is_valid(self, board):
-		for col in zip(*board):
-			if self.has_duplicate_number(col):
-				return False
-		return True 
+		return all(self.no_duplicate_number(col) for col in zip(*board))
 
 	def sub_box_is_valid(self, board):
-		for i in (0, 3, 6):
-			for j in (0, 3, 6):
-				sub_box = [board[x][y] for x in range(i, i + 3) for y in range(j, j + 3)]
-				if self.has_duplicate_number(sub_box):
-					return False
-		return True
+		sub_box_len = 3
+		return all(self.no_duplicate_number([board[x][y] for x in range(i, i + 3) for y in range(j, j + 3)]) \
+			for i in (0, sub_box_len, sub_box_len+3)\
+			for j in (0, sub_box_len, sub_box_len+3))
+
 
 	def isValidSudoku(self, board):
 		return self.row_is_valid(board) and self.col_is_valid(board) and self.sub_box_is_valid(board)
