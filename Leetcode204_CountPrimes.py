@@ -3,6 +3,7 @@ import timeit
 
 class Solution1:
     # Time complexity too high
+    # 
     def isPrime(self, num):
         if num < 2:
             return False
@@ -25,6 +26,7 @@ class Solution1:
         return cnt
 
 class Solution2:
+    # Time complexity: O(nlogn)
     def countPrimes(self, n):
         if n < 3:
             return 0
