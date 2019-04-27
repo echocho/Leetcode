@@ -3,7 +3,7 @@
 # Solution: use binary heap as the backbone, to have faster run time
 # Time complexity:
 # getMin(): O(1)
-# pop(): O(1)
+# top(): O(1)
 # push(): O(log n)
 # pop(): O(log n)
 
@@ -75,59 +75,42 @@ class MinStack:
         """
         return self.heap[1]
 
-ms = MinStack()
-ms.push(2)
-ms.push(0)
-ms.push(3)
-ms.push(0)
-print(ms.stack)
-print(ms.heap)
-print('min',ms.getMin())
-ms.pop()
-print('pop')
-print(ms.stack)
-print(ms.heap)
-print('min',ms.getMin())
-ms.pop()
-print('pop')
-print(ms.stack)
-print(ms.heap)
-print('min',ms.getMin())
-ms.pop()
-print('pop')
-print(ms.stack)
-print(ms.heap)
-print('min',ms.getMin())
-# print('min',ms.getMin())
-# ms.pop()
-# print('pop', ms.stack, ms.heap)
-# print('min',ms.getMin())
-# ms.pop()
-# print('pop', ms.stack, ms.heap)
-# print('min',ms.getMin())
-# print(ms.stack)
-# print(ms.heap)
-# ms.push(2)
-# ms.push(7)
-# ms.push(4)
-# ms.push(9)
-# ms.push(3)
-# ms.push(10)
-# ms.push(6)
-# ms.push(1)
-# ms.push(8)
-# ms.push(11)
-# # ms.push(12)
-# print(ms.stack)
-# print(ms.heap)
-# # print(ms.top())
-# # print(ms.getMin())
-# ms.pop()
-# print('pop 1 out')
-# print(ms.stack)
-# print(ms.heap)
-# ms.pop()
-# print('pop 1 out')
-# print(ms.stack)
-# print(ms.heap)
+class MinStack2:
+    """
+    use two lists: one stores all elements and another stores smallest items seen so far
+    Time complexity:
+    getMin(): O(1)
+    pop(): O(1)
+    push(): O(1)
+    top(): O(1)
+    """
+    def __init__(self):
+        self.min_elems = []
+        self.elems = []
 
+    def push(self, x):
+        if not self.elems:
+            self.min_elems.append(x)
+        elif x <= self.min_elems[-1]:
+            self.min_elems.append(x)
+        self.elems.append(x)
+
+    def pop(self):
+        if self.__stack_is_empty():
+            raise Exception('Empty stack')
+        t = self.elems.pop()
+        if t == self.min_elems[-1]:
+            self.min_elems.pop()
+
+    def top(self):
+        if self.__stack_is_empty():
+            raise Exception('Empty stack')
+        return self.elems[-1]
+
+    def getMin(self):
+        if self.__stack_is_empty():
+            raise Exception('Empty stack')
+        return self.min_elems[-1]
+
+    def __stack_is_empty(self):
+        return len(self.elems) == 0
